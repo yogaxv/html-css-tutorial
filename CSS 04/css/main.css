@@ -1,0 +1,55 @@
+body {
+
+}
+
+.text1 {
+  /* text-decoration-line: underline; */
+  /* text-decoration-line: overline; */
+  text-decoration-line: line-through;
+  text-decoration-color: red;
+  text-decoration-style: dashed;
+  text-decoration-thickness: 10px;
+  
+}
+
+.text2 {
+  color: royalblue;
+  text-decoration: underline red dotted 5px;
+}
+
+.text3 {
+  text-transform: uppercase;
+}
+
+.text4 {
+  font-size: 12vw;
+  font-weight: bolder;
+  font-style: italic;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+
+h1 {
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  text-shadow: 2px 0 5px gray;
+}
+
+p:first-of-type {
+  word-spacing: 10px;
+  text-indent: 50px;
+  letter-spacing: 10px;
+  line-height: 10px;
+}
+
+p:nth-of-type(2) {
+  text-align: justify;
+}
+
+p:last-of-type {
+  font-family: "Square Peg", Helvetica, sans-serif;
+  
+}

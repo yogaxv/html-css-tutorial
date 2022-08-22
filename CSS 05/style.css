@@ -1,0 +1,62 @@
+
+.hero {
+  background: blue;
+
+  border: 10px solid black;
+  padding-left: 100px;
+
+  margin-bottom: 10px;
+}
+
+.primary {
+  background-color: fuchsia;
+  color: #fff
+}
+
+button {
+  
+  /* 
+  padding-top: 5px;
+  padding-left: 10px;
+  padding-bottom: 5px;
+  padding-right: 10px; 
+  */
+
+  /* atas, kiri, bawah, kenan */
+  /* padding: 5px 10px 5px 10px; */
+
+  /* (atas bawah)  (kanan kiri) */
+  /* padding: 5px 25px; */
+
+  padding: 10px;
+
+  margin: 10px;
+}
+
+
+.box {
+  background-color: red;
+  margin-bottom: 5px;
+  float: right;
+}
+
+.box2 {
+  background-color: blue;
+  margin-bottom: 5px;
+}
+
+.w-100{
+  width: 100px;
+}
+
+.h-100 {
+  height: 100px;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.d-none {
+  display: none;
+}

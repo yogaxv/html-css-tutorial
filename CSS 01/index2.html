@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <style>
+    h1::before {
+      content: "Ini adalah ";
+    }
+
+    h1::after {
+      content: " : ";
+    }
+
+    p::first-letter {
+      font-size: 100px;
+    }
+
+    p::first-line {
+      color: red;
+    }
+
+    h1::selection {
+      color: blue;
+    }
+
+    
+    .list-item::marker {
+      color: red;
+    }
+
+    li {
+      color: blue;
+    }
+
+    a[rel|="noopener"] {
+      color: red;
+    }
+
+  </style>
+</head>
+<body>
+
+  <h1>Judul hari ini</h1>
+  
+  <h1>Tentang Jadwal</h1>
+
+  <p>
+    Menteri Kominfo, Johnny G Plate mengatakan aturan PSE Lingkup Privat pemerintah tak pandang bulu dari mana asal perusahaan teknologi itu. Pasalnya, pemerintah memberlakukan hal yang sama dengan perusahaan lokal, diwajibkan
+    mendaftar ke negara.
+    
+    "Seluruh penyelenggara sistem elektronik privat, PSE, baik swasta murni maupun yang badan usaha milik negara harus melakukan pendaftaran PSE untuk memenuhi persyaratan perundang-undangan kita paling lambat tanggal 20 Juli ini sudah harus ya melakukan pendaftaran," kata Johnny kepada wartawan di Candi Borobudur, Kabupaten Magelang, Jawa Tengah, Kamis (14/7).
+    
+    Ia menilai pendaftaran aplikasi ke negara itu terbilang mudah karena hanya mengakses Online Single Submission (OSS).
+    
+    Baca artikel CNN Indonesia "Kominfo Ancam Blokir WhatsApp, IG, hingga Google 4 Hari Lagi" selengkapnya di sini: https://www.cnnindonesia.com/teknologi/20220717111938-185-822543/kominfo-ancam-blokir-whatsapp-ig-hingga-google-4-hari-lagi.
+    
+    Download Apps CNN Indonesia sekarang https://app.cnnindonesia.com/
+  </p>
+
+  <ul>
+    <li class="list-item">List 1</li>
+    <li class="list-item">List 2</li>
+    <li class="list-item">List 3</li>
+    <li class="list-item">List 4</li>
+    <li class="list-item">List 5</li>
+  </ul>
+
+  <a href="http://www.google.com">Link google</a> <br>
+
+  <a 
+    href="http://www.facebook.com" 
+    rel="noopener-s">
+    Link facebook</a>
+  <br>
+
+  <a href="#">Homepage</a> <br>
+
+  <a 
+    href="http://www.instagram.com" 
+    target="_blank" 
+    rel="noopener noreferrer noopener-s">
+    Link instagram
+  </a>
+
+
+  
+</body>
+</html>

@@ -1,0 +1,50 @@
+* {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.main {
+  background-image: url("images/bg.jpg");
+  background-size: cover;
+  padding: 0 10%;
+  height: 600px;
+}
+
+.box{
+  height: 100%;
+  width: 50%;
+}
+
+#right-side {
+  float: right;
+}
+
+#left-side {
+  /* background-color: gray; */
+}
+
+#left-side h1 {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+#left-side h6 {
+  margin-bottom: 25px;
+}
+
+#left-side p {
+  margin-bottom: 40px;
+}
+
+#left-content {
+  padding: 15% 10%;
+  width: 400px;
+}
+
+.btn-wiki {
+  background-color: indigo;
+  color: whitesmoke;
+  text-decoration: none;
+  padding: 10px 30px;
+  border-radius: 8px;
+}
